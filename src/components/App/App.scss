@@ -1,0 +1,18 @@
+.main-container {
+	display: grid;
+	grid-template-rows: [row-line1] 6rem [row-line2] 8fr [row-line3] 6rem [row-line4];
+	grid-template-areas:
+		"navbar"
+		"content"
+		"footer";
+	align-content: stretch;
+	background-image: linear-gradient(to bottom, #eee , #fff);
+}
+
+:local(.content) {
+	grid-area: content;
+
+	:global &.paddTop {
+		padding-top: 0;
+	}
+}

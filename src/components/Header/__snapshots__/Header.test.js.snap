@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <Header /> correctly 1`] = `
+<nav
+  className="navbar "
+  id="navbar"
+>
+  <a
+    className="webLogo"
+    href="#"
+  >
+    <span
+      className="logoContent"
+    >
+      A
+    </span>
+  </a>
+  <ul
+    className="navMenu"
+  >
+    <li>
+      <a
+        className="navlink active"
+        href="#"
+        onClick={[Function]}
+      >
+        HOME
+      </a>
+    </li>
+    <li>
+      <a
+        className="navlink "
+        href="#about"
+        onClick={[Function]}
+      >
+        ABOUT
+      </a>
+    </li>
+    <li>
+      <a
+        className="navlink "
+        href="#portfolio"
+        onClick={[Function]}
+      >
+        PORTFOLIO
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

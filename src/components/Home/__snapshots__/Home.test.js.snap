@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <Home /> correctly 1`] = `
+<section
+  className="home"
+  id="home"
+>
+  <div
+    className="homeImage"
+  >
+    <h3
+      className="imageText"
+    >
+      Hi Visitor,
+    </h3>
+    <h1
+      className="imageText"
+    >
+      So let's get started
+    </h1>
+    <p
+      className="imageText"
+    >
+      I'm a remote Frontend Developer based in Ghana
+    </p>
+    <a
+      className="imageButton"
+      href="#about"
+    >
+      WANT MORE »
+    </a>
+  </div>
+  <a
+    className="imageButton scrollButton "
+    href="#about"
+  >
+    <FiChevronDown
+      size={64}
+    />
+  </a>
+</section>
+`;

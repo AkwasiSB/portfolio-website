@@ -1,0 +1,39 @@
+html {
+	height: 100%;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4,
+p,
+div,
+button {
+	font-size: 1.6rem;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}

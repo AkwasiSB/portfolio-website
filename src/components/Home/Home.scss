@@ -1,0 +1,104 @@
+$screen-sm: 768px;
+$screen-md: 1200px;
+
+.home {
+	@media (min-width: $screen-sm) {
+		h1 {
+			font-size: 5.4rem;
+		}
+
+		h3 {
+			font-size: 3.1rem;
+		}
+	}
+}
+
+.home-image {
+	background-image: linear-gradient(to right, rgba(128, 0, 128, 0.65)), url('../../images/caspar-camille-rubin-669071-unsplash.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100vh;
+
+	@media (min-width: $screen-sm) {
+		background-image: linear-gradient(to right, rgba(228, 101, 114, 0.7)), url('../../images/christopher-gower-291246-unsplash.jpg');
+		height: 59rem;
+		padding-left: 10rem;
+	}
+
+	@media (min-width: $screen-md) {
+		padding-left: 12.8rem;
+	}
+}
+
+.image-text {
+	color: #fff;
+	padding: 0 2.5rem;
+	word-wrap: break-word;
+	margin: 1.5rem 0;
+}
+
+h1.image-text {
+	margin: 3rem 0 2rem;
+}
+
+.image-button {
+	color: #fff;
+	background: transparent;
+	font-size: 1.4rem;
+	font-weight: bold;
+	padding: 1rem 1.7rem;
+	margin: 3.5rem 2.5rem;
+	border: 1px solid #fff;
+}
+
+:local(.scroll-button) {
+	composes: image-button;
+	border: none;
+	margin: 0;
+	position: absolute;
+	bottom: 3rem;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 6rem;
+	height: 6rem;
+	text-align: center;
+	animation: Floating 2s infinite ease-in-out;
+
+	:global &.scale-down {
+		bottom: 0;
+	}
+
+	@media (min-width: $screen-sm) {
+		bottom: 4.5rem;
+		
+		:global &.scale-down {
+			bottom: 4.5rem;
+		}
+	}
+
+	@media (min-width: $screen-md) {
+		bottom: 12rem;
+		
+		:global &.scale-down {
+			bottom: 12rem;
+		}
+	}
+}
+
+@keyframes Floating{
+	from {
+		transform: translate(-50%, 0);
+	}
+	50% {
+		transform: translate(-50%, 2rem);
+	}
+	to {
+		transform: translate(-50%, -0);
+	}
+}

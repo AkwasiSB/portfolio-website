@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <Portfolio /> correctly 1`] = `
+<section
+  className="portfolio"
+  id="portfolio"
+>
+  <h2>
+    PORTFOLIO
+  </h2>
+  <div
+    className="portfolioContainer"
+  >
+    <a
+      className="project"
+      href="https://bilingua.io"
+      key="1"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt=""
+        src={
+          Object {
+            "default": "",
+          }
+        }
+      />
+      <h4>
+        Bilingua
+      </h4>
+      <div
+        className="projectDetails"
+      >
+        <h4>
+          Bilingua
+        </h4>
+        <p>
+          A language exchange app designed to help people from different nationalities to easily learn languages of their interest through social interaction.
+        </p>
+      </div>
+    </a>
+    <a
+      className="project"
+      href="https://transwap.com"
+      key="2"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt=""
+        src={
+          Object {
+            "default": "",
+          }
+        }
+      />
+      <h4>
+        Transwap
+      </h4>
+      <div
+        className="projectDetails"
+      >
+        <h4>
+          Transwap
+        </h4>
+        <p>
+          A remittance website for money transfers in South-East asian countries.
+        </p>
+      </div>
+    </a>
+    <a
+      className="project"
+      href="https://imaginae.fr"
+      key="3"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt=""
+        src={
+          Object {
+            "default": "",
+          }
+        }
+      />
+      <h4>
+        Imaginae
+      </h4>
+      <div
+        className="projectDetails"
+      >
+        <h4>
+          Imaginae
+        </h4>
+        <p>
+          A web and mobile app for creating a community of authors and readers especially the French language.
+        </p>
+      </div>
+    </a>
+  </div>
+</section>
+`;

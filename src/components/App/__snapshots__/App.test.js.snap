@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <App /> correctly 1`] = `
+<div
+  className="mainContainer"
+>
+  <Header
+    activeNavLink="Home"
+    isSticky={false}
+  />
+  <main
+    className="content "
+  >
+    <Home
+      isHeaderSticky={false}
+    />
+    <About />
+    <Portfolio />
+  </main>
+  <Footer />
+</div>
+`;
