@@ -2,7 +2,6 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "Akwasi Sefa-Boakye's frontend developer portfolio",
-  "private": true,
   "scripts": {
     "start": "webpack-dev-server --env.development",
     "build-dev": "webpack --watch --env.development",
